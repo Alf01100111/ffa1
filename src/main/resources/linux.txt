@@ -1,0 +1,20 @@
+
+cat "cat dog hamster" >> "home animals"
+cat "camel donkey horse" >> "pack animals"
+
+cat "home animals" "pack animals" > animals
+cat animals
+
+mv animals "friends human"
+
+mkdir animals
+mv animals animals/animals
+
+apt install mysql-server
+
+dpkg install -i telegram
+dpkg remove -r telegram
+
+
+mysql -h 127.0.0.1 -u root -p
+create database friends_of_man
